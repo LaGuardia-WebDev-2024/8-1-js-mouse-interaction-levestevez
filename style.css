@@ -9,23 +9,24 @@ html {
 
 body {
   background: radial-gradient(
-    #bfd3e8 5px,
-    white 10px 65px,
-    #bfd3e8 1px
+    white 5px,
+    #f01111 10px 65px,
+    #000000 1px
   );
   background-size: 100px 100px 
 }
 
 h1,
 h2 {
-  background-color: #bfd3e8;
+  background-color: #9b0101;
   border-radius: 20px;
   color: white;
   width: 600px;
   margin: auto;
   margin-bottom: 5px;
+  font-family: cursive;
 }
 #myCanvas {
-  border: 5px solid #bfd3e8;
+  border: 5px solid #9b0101;
   border-radius: 30px;
 }
