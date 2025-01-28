@@ -15,7 +15,7 @@ void setup(){
 
   // take a bite out of the tomato!
   fill(255, 255, 255);
-  ellipse(175, 200, 30, 30);
+  ellipse(175, 200, 50, 50);
 }
 
 //🎯Variable Declarations Go Here
@@ -23,6 +23,8 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
+
+ellipse(mouseX, mouseY, 50 ,50)
 
 };
 
