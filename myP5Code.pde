@@ -13,18 +13,25 @@ void setup(){
   fill(48, 130, 31);
   rect(276, 103, 12, 32); 
 
-  // take a bite out of the tomato!
-  fill(255, 255, 255);
-  ellipse(175, 200, 50, 50);
+ 
 }
 
 //🎯Variable Declarations Go Here
-
+var biteSize = 100;
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
 
-ellipse(mouseX, mouseY, 50 ,50)
+   // take a bite out of the tomato!
+  fill(255, 255, 255);
+  ellipse(mouseX, mouseY, biteSize, biteSize);
+  biteSize--;
+  
+  if(biteSize < 0){
+    fill(255,0,255);
+    textSize(90);
+    text("You Lose!", 100, 200);
+  }
 
 };
 
